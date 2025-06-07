@@ -1,28 +1,36 @@
 # Pliki i katalogi lokalne, które nie będą wysyłane na GitHub
 
-# Pliki tymczasowe
+# Ignoruj pliki tymczasowe edytorów
+*.swp
+*.swo
+*.bak
 *.tmp
 *.log
-*.bak
 
-# Dane i wyniki, które nie będą publikowane
-/data/
-/output/
-*.csv
-*.xlsx
-
-# Notebook checkpoints
+# Ignoruj notebook checkpointy
 .ipynb_checkpoints/
 
-# Środowiska wirtualne
-venv/
-env/
+# Ignoruj dane pomocnicze
+Data/
+
+# Ignoruj wszystkie pliki CSV
+# *.csv
+
+# Ignoruj pliki cache Pythona
+__pycache__/
+*.pyc
+
+# Ignoruj foldery środowisk wirtualnych
 .env/
+.venv/
+venv/
+ENV/
+env/
 
-# Pliki systemowe
-.DS_Store
-Thumbs.db
-
-# Ustawienia lokalne IDE
+# Ignoruj foldery IDE
 .vscode/
 .idea/
+
+# Ignoruj pliki konfiguracyjne użytkownika
+*.DS_Store
+Thumbs.db
