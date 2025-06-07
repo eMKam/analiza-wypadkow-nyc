@@ -1,0 +1,28 @@
+# Pliki i katalogi lokalne, które nie będą wysyłane na GitHub
+
+# Pliki tymczasowe
+*.tmp
+*.log
+*.bak
+
+# Dane i wyniki, które nie będą publikowane
+/data/
+/output/
+*.csv
+*.xlsx
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Środowiska wirtualne
+venv/
+env/
+.env/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Ustawienia lokalne IDE
+.vscode/
+.idea/
