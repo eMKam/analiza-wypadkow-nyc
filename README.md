@@ -47,6 +47,15 @@ Opis:
 
 ---
 
+## 📦 Wymagane biblioteki i środowisko
+
+Aby uruchomić notebooki, zalecane jest środowisko Python 3.9+ oraz instalacja poniższych paczek (np. za pomocą `pip` lub `conda`):
+
+```bash
+pip install pandas numpy matplotlib seaborn geopandas shapely folium matplotlib mapclassify plotly ipywidgets openpyxl
+
+---
+
 ## 📌 Uwagi
 
 - Dane wejściowe pochodzą z publicznych zasobów miasta Nowy Jork.
